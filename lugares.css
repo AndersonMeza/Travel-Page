@@ -1,0 +1,121 @@
+header
+{
+    display: flex;
+    background-color: gold;
+    border-radius: 20px 20px 0px 0px;
+}
+
+header :only-child
+{
+    padding: auto;
+}
+
+header p
+{
+    margin-left: 40%;    
+    margin-top: 30px;
+    
+}
+
+header p a
+{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left:40px ;
+    text-decoration: none;
+}
+
+header h1
+{
+    margin-left: 10px;
+}
+
+header figure
+{
+    margin: 5px;
+}
+
+header figure img
+{
+    width: 80px;
+    border-radius: 40px;
+    margin: 0px;
+}
+
+.Description-content figure img
+{
+    width: 1503px;
+    height: 600px;
+    margin-left: 0;
+    padding-left: 0;    
+}
+
+.Description-content figure 
+{
+    margin-top: 0px;
+    margin-left: 0;
+}
+
+.Description-content p
+{
+    width: 700px;
+    margin-top: 0px;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.informacion
+{    
+    width: 1000px;
+    margin-left: 17%;
+}
+
+.informacion h1
+{    
+    padding-left: 35%;
+    padding-top: 20px;
+}
+
+.informacion h1,h2
+{
+    text-transform: uppercase;
+}
+
+.informacion h2,.informacion p, .informacion figure
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.informacion figure
+{
+    margin: 0px;
+}
+
+.informacion figure img
+{
+    padding-left: 30px;
+    width: 900px;
+    height: 665px;
+}
+
+.informacion p
+{
+    text-align: justify;
+}
+
+footer
+{
+    margin-top: 0px;
+    background-color: gold;
+    height: 60px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+footer p
+{
+    margin-top: 0px;
+    margin-left: 30%;
+    padding-top: 20px;
+}
