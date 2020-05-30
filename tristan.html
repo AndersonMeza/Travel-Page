@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image.png" href="https://static.vecteezy.com/system/resources/previews/000/511/437/non_2x/travel-tourism-logo-isolated-on-white-background-vector.jpg">
     <link rel="stylesheet" href="lugares.css">  
+    <script src="script-tristan.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
     <title>Tristan de Acuña</title>
 </head>
 <body>
+    
     <header>
         <figure>
             <img src="https://static.vecteezy.com/system/resources/previews/000/511/437/non_2x/travel-tourism-logo-isolated-on-white-background-vector.jpg" alt="logo página">
@@ -31,9 +34,13 @@
         <h2>Pais:</h2>
         <p>Reino Unido</p>
         <h2>Caracteristica:</h2>
-        <p>Es el lugar mas remoto del munco</p>
-        <h2>Ubicacion:</h2>
-        <!-- Auí va lo de google maps -->
+        <p>Es el lugar mas remoto del mundo</p>
+        <h2>Ubicacion:</h2>    
+
+	    <div id="map">
+	    <script>iniciarMap()</script>    
+        </div>
+
         <h2>Información:</h2>
         <p>
             Tristán de Acuña está situada en mitad del Atlántico Sur, a 3360 km de Sudamérica y a 2816 km de South Africa. El territorio habitado más cercano es otra isla, Santa Elena (la isla donde estuvo confinado Napoleón), a 2161 km al norte. La isla principal, de unos 98 km², tiene un relieve muy montañoso debido a su origen volcánico, pero existe una zona llana en la costa noroccidental, denominada The Hillpiece, lugar donde se encuentra Edimburgo de los Siete Mares, que es la capital administrativa y único sitio habitado que ya evoca el exotismo de esta zona con su nombre.
@@ -64,7 +71,7 @@
     <footer>
         <P>
             Derechos Reservados
-            María Gomez - Anderson Meza - David Mora - luis Salvador - Andrea Yanez
+            María Gomez - Anderson Meza - David Mora - Luis Salvador - Andrea Yanez
         </P>
         
     </footer>  
