@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="5Bd1qmA39BRmglRY55Dx7IQ5uE4Vo42mP-1Lva8OkK4"/>
     <title>Viaja Diferente</title>
     <link rel="stylesheet" href="index.css">            
     <link rel="icon" type="image.png" href="https://static.vecteezy.com/system/resources/previews/000/511/437/non_2x/travel-tourism-logo-isolated-on-white-background-vector.jpg">
+    <script src="https://smtpjs.com/v3/smtp.js"></script> 
+    <script src="script-email.js"></script>
 </head>
 <body>
     <header>
@@ -221,7 +224,7 @@
         <figure>
             <img src="https://image.shutterstock.com/image-vector/people-group-taking-selfie-photo-260nw-507091594.jpg" alt="imagen del grupo">            
         </figure>
-    </section>
+    </section>    
 
     <section class="sugerencias" id="sugerencias">
         <h3>¿Tienes alguna sugerencia? Con gusto la escuchamos, Escríbenos!</h3>
@@ -232,7 +235,9 @@
             <input class="input-texto" type="text">
             <label for="">Ingrese su Sugerencias:</label>
             <input class="sugerencias-grande" type="text">
-            <button>Enviar</button>
+            <form method="post">
+                <input type="button" value="Enviar" onclick="sendEmail()"/>
+            </form>  
         </form>
     </section>
     
